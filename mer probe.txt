@@ -1,0 +1,73 @@
+2020-05-30 12:22:31,945 DEBUG [0x7fba19fbc700] ccap (../../src/cm/impl/CmCtlProcRxMmmMsg.cpp:740) 0x2000000 - "Function":"CmControllerImpl::HandleMerProbe", HandleMerProbe - got PNM Probe message:
+Rx RxMER PROBE, Message Decode:
+  Status = 0x08
+    Version = 0 (Version 1)
+  RxMER section count = 2
+  PMAP-IE = 0x00220000
+    SID          = 8 (0x8)
+    MER?         = 1 (yes)
+    Power        = 0 (normal)
+    TX EQ        = 0 (equalized)
+    Stagger?     = 0 (no)
+    Probe Frame  = 0
+    Sym In Frame = 0
+    Start Subc   = 0
+    Subc Skip    = 0
+  Starting minislot number = 0x2a02764e
+  MER per Subcarrier (0.25 dB), size 2 =
+    section[0], 512 subcarriers, low = 0x4a, high = 0x249 (512 bytes)
+      ab ae b5 a7   aa ab b3 a6   a9 a8 b4 ad   a9 a9 b4 ae
+      ae a5 a7 af   b3 a0 b5 a6   a5 b8 aa a2   aa b3 a9 ad
+      b2 b2 ae a7   bd af bb b3   ad b6 ab a2   ac ae ab ae
+      b1 aa a7 af   a5 a8 ab ac   b1 ad b3 b1   af aa ab b5
+      ad ae a7 a9   ab a9 af b4   b1 af bd b0   a8 b0 bc a8
+      ad b6 b1 ab   b1 b1 a4 a8   ab b3 a4 ae   ab b7 a2 ba
+      a8 b1 a7 b1   b3 b7 a9 af   ad bc b1 b0   a9 af af c7
+      b2 b1 af b2   b1 ae ac c4   b2 b1 ae a5   ad b1 ab aa
+      a8 a8 ac a9   b7 a5 b0 a5   a8 a9 c0 c0   b2 c4 b1 b2
+      af b3 ad b2   a8 b8 b3 ae   b1 b2 af a8   b0 b9 ae bd
+      ac ab b5 b9   ae b6 a7 b9   b1 b8 b2 ad   c6 b4 b0 b4
+      a8 ae ad ad   ab ba ae a6   a4 a9 ac a9   b4 af b4 ae
+      ae a6 ab b1   b7 b1 c0 b5   b5 ae b0 a5   b5 b6 b1 b1
+      b1 c4 b1 ab   b4 b7 ab bb   ab b0 b7 b4   b7 a4 ac b7
+      b1 ab a8 b0   a6 a9 ae a8   b0 bc b1 ab   ae b4 ad b4
+      a8 b1 a8 b1   ad ad a9 bb   b1 b2 b3 b0   b9 aa ab b0
+      a7 a8 b4 b5   a2 a4 ab b4   b1 aa ab a9   a8 af ab ad
+      b2 ab b5 af   aa b1 ac b7   a9 ad ac ad   b2 c0 b3 c3
+      ac a5 b8 a9   ae b2 ae a9   ac b0 b0 ad   a4 b3 a2 a7
+      b0 a8 b3 ac   ab a2 b0 b1   b0 ac ab b7   ae bd ac b1
+      a5 b2 b5 b8   a1 b1 b0 bc   b4 b8 c4 aa   ab ab a3 b4
+      b6 c6 c2 ad   b0 b7 a9 ab   b5 b7 b2 a9   a6 a8 af b3
+      ae a8 ab aa   b8 af b0 ae   bc b4 af b2   b1 af aa b0
+      ae b0 b1 a8   af b6 ad ad   b4 af ac b6   b1 b0 b4 b2
+      ad c4 b6 b5   b9 ad ba ab   a9 a8 ae ab   a5 ad a7 ae
+      b0 ac b7 b1   a8 ad a6 b0   ac b0 b5 b9   b1 ba b5 a3
+      b4 a9 a9 ac   b0 ad a8 b0   b1 a5 b0 c1   ba bb a7 b1
+      af a6 b0 b1   b3 ae b9 ad   ad b6 ae aa   a8 aa b6 a8
+      ae ab ab b6   b0 b1 b2 b1   ae b3 b0 a8   b7 b8 b0 b1
+      be b6 af b2   ae b3 b0 b0   aa ae ae af   ad ae a9 b5
+      b7 af b6 ab   b3 b1 ad ac   b5 bd ad af   b3 ba ab ad
+      b2 af bc 9e   a8 ba b5 b4   b1 b4 bd af   a5 b2 bc c9
+     ----
+    section[1], 208 subcarriers, low = 0x24a, high = 0x319 (208 bytes)
+      b4 a4 b7 ae   a5 b4 b7 a9   af ad be ad   a7 b1 bf ad
+      b1 ab ad a8   ad b0 a9 bd   ae ad a7 a8   b2 a1 aa ac
+      a6 a6 ad b8   b0 a7 af ac   a8 a6 b3 af   a4 ba b9 ba
+      a8 ad b8 a3   ae ab ae ac   ad b1 af b0   ab b9 ac ac
+      ae b4 ae b1   b4 aa a3 a9   b1 b8 b0 b1   ae b4 ac b4
+      ad ac c1 b3   b3 ab a5 bf   b8 bb b1 a7   a7 a9 ba ad
+      aa a4 a8 b1   ae a8 b3 b0   b0 bc af ac   ac b3 b7 bd
+      ba b4 ae ad   b3 ac b6 bd   b2 ac af b3   b9 b1 b8 c0
+      c4 bd af b4   b5 aa b1 b5   af a8 c2 b5   b3 b3 b7 aa
+      b6 b0 ba a3   a9 b8 ad a5   aa ac a8 ad   a7 b2 ae a9
+      aa a6 b1 ae   ae ba b5 b0   bd b4 af a5   b4 a8 bc b7
+      b5 b1 b2 b2   ae b0 ad ad   bf aa a3 ae   ba b9 bb ae
+      a7 b3 ab b7   a9 ae b2 b5   a8 af b2 b2   a8 a8 b4 ba
+     ----
+  Trailer Status = 0x00
+    Version = 0 (Version 1)
+  Power Error (0.25 dB) = -3
+  RxMER Burst (0.25 dB) = 175
+
+
+2020-05-30 12:22
