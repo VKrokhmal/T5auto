@@ -1,10 +1,9 @@
-2020-05-30 12:22:31,945 DEBUG [0x7fba19fbc700] ccap (../../src/cm/impl/CmCtlProcRxMmmMsg.cpp:740) 0x2000000 - "Function":"CmControllerImpl::HandleMerProbe", HandleMerProbe - got PNM Probe message:
 Rx RxMER PROBE, Message Decode:
   Status = 0x08
     Version = 0 (Version 1)
-  RxMER section count = 2
-  PMAP-IE = 0x00220000
-    SID          = 8 (0x8)
+  RxMER section count = 4
+  PMAP-IE = 0x00060000
+    SID          = 1 (0x1)
     MER?         = 1 (yes)
     Power        = 0 (normal)
     TX EQ        = 0 (equalized)
@@ -13,61 +12,134 @@ Rx RxMER PROBE, Message Decode:
     Sym In Frame = 0
     Start Subc   = 0
     Subc Skip    = 0
-  Starting minislot number = 0x2a02764e
-  MER per Subcarrier (0.25 dB), size 2 =
+  Starting minislot number = 0x5c5b2790
+  MER per Subcarrier (0.25 dB), size 4 =
     section[0], 512 subcarriers, low = 0x4a, high = 0x249 (512 bytes)
-      ab ae b5 a7   aa ab b3 a6   a9 a8 b4 ad   a9 a9 b4 ae
-      ae a5 a7 af   b3 a0 b5 a6   a5 b8 aa a2   aa b3 a9 ad
-      b2 b2 ae a7   bd af bb b3   ad b6 ab a2   ac ae ab ae
-      b1 aa a7 af   a5 a8 ab ac   b1 ad b3 b1   af aa ab b5
-      ad ae a7 a9   ab a9 af b4   b1 af bd b0   a8 b0 bc a8
-      ad b6 b1 ab   b1 b1 a4 a8   ab b3 a4 ae   ab b7 a2 ba
-      a8 b1 a7 b1   b3 b7 a9 af   ad bc b1 b0   a9 af af c7
-      b2 b1 af b2   b1 ae ac c4   b2 b1 ae a5   ad b1 ab aa
-      a8 a8 ac a9   b7 a5 b0 a5   a8 a9 c0 c0   b2 c4 b1 b2
-      af b3 ad b2   a8 b8 b3 ae   b1 b2 af a8   b0 b9 ae bd
-      ac ab b5 b9   ae b6 a7 b9   b1 b8 b2 ad   c6 b4 b0 b4
-      a8 ae ad ad   ab ba ae a6   a4 a9 ac a9   b4 af b4 ae
-      ae a6 ab b1   b7 b1 c0 b5   b5 ae b0 a5   b5 b6 b1 b1
-      b1 c4 b1 ab   b4 b7 ab bb   ab b0 b7 b4   b7 a4 ac b7
-      b1 ab a8 b0   a6 a9 ae a8   b0 bc b1 ab   ae b4 ad b4
-      a8 b1 a8 b1   ad ad a9 bb   b1 b2 b3 b0   b9 aa ab b0
-      a7 a8 b4 b5   a2 a4 ab b4   b1 aa ab a9   a8 af ab ad
-      b2 ab b5 af   aa b1 ac b7   a9 ad ac ad   b2 c0 b3 c3
-      ac a5 b8 a9   ae b2 ae a9   ac b0 b0 ad   a4 b3 a2 a7
-      b0 a8 b3 ac   ab a2 b0 b1   b0 ac ab b7   ae bd ac b1
-      a5 b2 b5 b8   a1 b1 b0 bc   b4 b8 c4 aa   ab ab a3 b4
-      b6 c6 c2 ad   b0 b7 a9 ab   b5 b7 b2 a9   a6 a8 af b3
-      ae a8 ab aa   b8 af b0 ae   bc b4 af b2   b1 af aa b0
-      ae b0 b1 a8   af b6 ad ad   b4 af ac b6   b1 b0 b4 b2
-      ad c4 b6 b5   b9 ad ba ab   a9 a8 ae ab   a5 ad a7 ae
-      b0 ac b7 b1   a8 ad a6 b0   ac b0 b5 b9   b1 ba b5 a3
-      b4 a9 a9 ac   b0 ad a8 b0   b1 a5 b0 c1   ba bb a7 b1
-      af a6 b0 b1   b3 ae b9 ad   ad b6 ae aa   a8 aa b6 a8
-      ae ab ab b6   b0 b1 b2 b1   ae b3 b0 a8   b7 b8 b0 b1
-      be b6 af b2   ae b3 b0 b0   aa ae ae af   ad ae a9 b5
-      b7 af b6 ab   b3 b1 ad ac   b5 bd ad af   b3 ba ab ad
-      b2 af bc 9e   a8 ba b5 b4   b1 b4 bd af   a5 b2 bc c9
+      b4 a4 b8 b4   b7 ad ae ad   a9 a7 a4 ad   a9 b2 ad b0
+      a5 ad aa ae   a8 ad a6 b1   ad a8 ad ac   ac b9 b2 ab
+      b8 a4 b5 ae   a5 a1 af aa   b5 b0 ab b0   a7 b0 a5 ad
+      9f a2 97 a3   aa 9f b0 ad   9c a2 9c 97   9b 9f 9e a7
+      9f a4 a0 a4   9f ad a0 a7   a1 a2 a7 a3   a5 ab b2 ab
+      ae af a2 c2   ab aa a9 9e   b4 a8 bc b1   a2 b0 b8 ad
+      ae b5 a9 ae   b2 a1 ad a9   a5 a2 b1 bd   c6 b5 c0 b3
+      bc bb a8 b4   a8 a2 a2 aa   b0 a6 a5 b4   a6 b5 b5 b6
+      b2 b5 be ac   be af ba b7   aa 9d b1 a9   ae a4 a8 b7
+      b6 af b7 b4   ab b7 b2 b6   b8 c0 a3 b5   aa ba ba b4
+      ae be b3 be   b1 b0 bc b1   bb b5 b1 ae   b0 ab b1 b9
+      b5 be b1 a6   bd aa b7 a5   a1 a1 a0 a8   b2 a8 b9 bd
+      b3 a9 b3 a7   a9 b4 a1 af   a4 9f aa ad   aa b4 ab b4
+      a7 bb ae b1   aa b7 b2 a5   b8 a5 ac b0   b0 a9 a5 9a
+      ac a8 a7 9f   b1 b7 b2 ae   bb b7 b3 b9   ab b1 a5 b1
+      b7 b6 b3 ae   ae a4 a7 ba   b6 ad 9d a3   a8 a7 a7 9d
+      a0 ab a0 a8   a4 99 9f b3   bf b4 ae b6   ae bd b8 ae
+      be b0 b0 bf   a8 b1 b3 ae   b1 a6 aa b0   b6 b7 aa b8
+      af a5 9f bb   b3 bb ac a6   ab a7 b5 b1   ae b0 a5 b1
+      9f a2 99 a5   a0 99 9b 96   9b a1 a3 a4   a5 9c a5 9f
+      9f 9e a2 9d   a1 9c ad a3   9c aa ab 9d   a2 b5 a7 a5
+      af ac a4 a3   a7 9c ab ae   ae a0 a8 a4   ad b7 a6 b1
+      ae b0 9f b0   b4 b2 ab ae   bb af a9 b2   b7 a7 b2 b2
+      ac b5 a3 b2   aa 9b a9 cc   b1 ad a1 ad   af ab a2 99
+      a2 94 99 93   96 96 aa a6   a1 ad a4 96   9f 9f 99 9c
+      9c a0 9c 9e   9c a1 a5 ac   a9 ae ac a7   a3 a3 a9 a6
+      a5 b1 b0 a2   a3 a2 b3 a4   ad a0 aa a4   a2 a5 aa b1
+      af af a5 a8   ab ac a5 a8   9e a9 97 aa   99 9c 95 9b
+      98 9c 99 98   a5 9a a6 af   ae a3 a8 a5   b0 aa 9e a5
+      99 9b 96 a4   a9 aa a8 9a   a3 a5 a0 a9   99 b2 a5 9f
+      a2 9d a4 9c   9d 94 95 97   a2 99 96 9f   a7 9e aa ad
+      9f b2 b1 a3   b5 9e 9f a8   a4 99 9c a9   ab a2 ae 97
      ----
-    section[1], 208 subcarriers, low = 0x24a, high = 0x319 (208 bytes)
-      b4 a4 b7 ae   a5 b4 b7 a9   af ad be ad   a7 b1 bf ad
-      b1 ab ad a8   ad b0 a9 bd   ae ad a7 a8   b2 a1 aa ac
-      a6 a6 ad b8   b0 a7 af ac   a8 a6 b3 af   a4 ba b9 ba
-      a8 ad b8 a3   ae ab ae ac   ad b1 af b0   ab b9 ac ac
-      ae b4 ae b1   b4 aa a3 a9   b1 b8 b0 b1   ae b4 ac b4
-      ad ac c1 b3   b3 ab a5 bf   b8 bb b1 a7   a7 a9 ba ad
-      aa a4 a8 b1   ae a8 b3 b0   b0 bc af ac   ac b3 b7 bd
-      ba b4 ae ad   b3 ac b6 bd   b2 ac af b3   b9 b1 b8 c0
-      c4 bd af b4   b5 aa b1 b5   af a8 c2 b5   b3 b3 b7 aa
-      b6 b0 ba a3   a9 b8 ad a5   aa ac a8 ad   a7 b2 ae a9
-      aa a6 b1 ae   ae ba b5 b0   bd b4 af a5   b4 a8 bc b7
-      b5 b1 b2 b2   ae b0 ad ad   bf aa a3 ae   ba b9 bb ae
-      a7 b3 ab b7   a9 ae b2 b5   a8 af b2 b2   a8 a8 b4 ba
+    section[1], 512 subcarriers, low = 0x24a, high = 0x449 (512 bytes)
+      9f ac a3 ab   aa a6 a8 b0   ab a5 be 9d   a8 a4 9a a1
+      98 9d 9f a9   a3 a9 9e a0   a8 a9 b2 b1   b3 a7 b0 b1
+      af b1 a9 ad   a2 a2 ac ae   ab a1 9b ab   b4 ae b1 a9
+      a7 ac a5 a5   a4 99 98 a1   a5 98 96 9f   99 97 93 91
+      90 90 91 9b   a0 9a aa a4   9b a9 99 94   a0 9e 98 91
+      9b a4 94 a7   a3 a4 a2 aa   9c a4 a7 ab   aa b1 a8 a4
+      ad a8 b6 b2   ac a7 a4 ac   aa b5 a1 a3   b3 b9 a9 b5
+      ad bd a6 ae   ab b0 ab b2   b0 af a2 b4   ab a5 ab a6
+      9c a4 b0 af   b1 bb b0 b2   b3 b4 aa 9f   97 a0 97 9b
+      9f a6 a8 b3   a9 a8 a9 a4   a8 a7 9d ac   ae b4 9c ac
+      ab ba b2 b1   b0 a7 ac b3   a1 b2 b4 a9   ae af a9 b6
+      b3 ba b9 b5   b2 ac a4 ab   ad b7 ad ab   ab af 9f 9e
+      a7 a3 b1 ad   ac a5 b8 a6   ab b4 b7 ad   bf ac a6 b0
+      aa af af b2   b5 b0 b6 af   c8 c2 aa ba   b1 aa af a9
+      af b3 b0 a4   ae b9 bc a6   ab b4 b3 ac   ac b5 af b1
+      b4 b2 b4 a8   b3 99 af ad   b2 9e a9 ae   ae b6 a7 af
+      b6 b3 a7 a3   ab 9b a9 ae   a9 a8 a1 a0   b7 ae ac a9
+      9d a8 b2 b4   a6 a1 ac a4   a7 9a 97 99   a0 a9 9d 8f
+      96 a3 a1 a0   9d 9e 9a 9a   a2 96 a3 a8   a2 a2 a0 a5
+      a5 98 a4 ab   a5 9e b8 a8   9d a5 9e 9d   9a 98 a4 a2
+      9f a2 a4 a6   b2 bd b2 aa   a6 ad ae b3   a8 b7 ad a9
+      a7 a9 b7 a4   a4 ac ac a7   a8 b4 9f a5   b4 a7 a8 ad
+      a3 a6 b9 9e   98 a0 9a 9d   94 a9 96 a2   9f 99 9a 90
+      a8 a1 aa 9c   9d a5 a3 ab   a8 ac a8 ad   a0 a9 a2 9c
+      a0 ac b2 ae   ae aa a9 b1   a8 a5 a7 ad   a0 a3 a5 9c
+      aa af b1 b0   a8 a1 b6 a4   a6 a2 a5 9c   aa 9e aa af
+      9d a5 9f b3   b1 b5 bd ae   a5 b4 ae a0   ba ac b0 aa
+      b7 9b b8 a8   b1 ac b4 aa   ab b0 b0 a3   ae a9 a0 a1
+      aa 9e 96 95   a9 9d a6 96   a1 9e 99 96   9e 9a 9a 95
+      96 98 91 98   a3 9e 98 98   a0 aa aa b9   b0 ab a4 ad
+      a4 9e 9f 9d   ac a4 b2 b0   aa ab 9a a8   9a a2 a9 9e
+      9b 9e 9f a2   a5 9e 98 97   aa 9c 9e a7   99 98 9d a8
+     ----
+    section[2], 487 subcarriers, low = 0x44a, high = 0x630 (488 bytes)
+      9e a9 ae b0   b1 a4 ba a8   aa c1 a4 a8   a9 b2 b4 aa
+      ae b2 a8 aa   9f ac a3 aa   a7 ae a8 b6   a9 ae 98 a6
+      ab a6 a8 ab   b3 9b ac a2   9f 97 ad aa   a2 a9 9b a5
+      a2 aa 9f a4   9f 9f 9e a8   9d 99 9f aa   a3 a8 a0 b7
+      a8 97 a1 b4   aa a6 a2 ac   b3 a7 a7 9c   9c 99 9e a6
+      97 95 93 9b   a3 a1 a7 96   9c a5 a8 a3   a4 9a a8 b5
+      a2 b3 ac a8   ad b0 af a1   ff ff ff ff   ff ff ff ff
+      ff ff ff ff   ff ff ff ff   ff ff ff ff   ff ff ff ab
+      a5 a5 a4 a5   a5 ac b1 b7   b0 a4 a3 a9   a5 a7 ae ff
+      ff ff ff ff   ff ff ff ff   ff ff ff ff   ff ff ff ff
+      ff ff ff ff   ff ff ff a5   ae af ad a9   a4 ae a3 a4
+      b4 a8 9d a6   a9 ae a3 a3   a0 9b b0 b4   af a8 b0 ac
+      af aa b6 a7   ad 9c a6 a7   ae 9b ad 98   9e a0 a2 9d
+      9e a8 b5 9f   91 ac a1 a4   9c 93 94 9c   a0 9f 98 a8
+      9f 92 a2 a6   9c 9a 9b 9f   ab 9d a5 94   a7 b4 aa a3
+      aa a8 af b4   ab bb ad b0   a8 9e a2 b0   ac a5 ba b1
+      b3 b5 a8 b4   af a9 a8 a3   a6 a5 af ac   98 a0 a4 97
+      a5 9e 90 9a   af ad a2 99   9d 99 a1 ab   a0 9d b2 af
+      ae b1 ab a7   a0 ac a1 93   ae b2 b3 a0   a4 a5 b7 9e
+      ab ad a1 ac   b4 a4 a8 ad   a0 ad 9e 91   9b 9d 9b 92
+      98 97 98 90   8c 90 9c 8e   8e 82 a5 8d   90 91 91 95
+      98 a0 b4 a3   9f bd aa a1   a0 ad a2 a5   a4 b2 a8 ae
+      b0 a9 b1 af   aa af ab b6   a3 a2 b0 ba   a3 a9 a8 ab
+      aa aa a4 b4   a6 9c b3 a9   a8 a3 b0 9f   a3 90 92 99
+      93 9d 9d 9e   b2 aa b7 bb   ac ab a2 af   9e a3 a3 9c
+      aa a8 ac a8   b6 a9 b1 af   b2 b0 9d a3   9d 99 9b ac
+      ad a2 a7 a7   b1 a8 a9 9c   b3 9b a7 a0   9f a4 ac ad
+      af 98 a1 a5   9f 98 a4 a2   a9 a2 a3 9c   9e a8 9e 9c
+      a4 aa 9f a9   ac b0 a3 9b   b3 b0 af a4   9d a4 b0 98
+      9d 98 a4 a9   ab a7 a7 a4   c5 aa ac a2   a3 ac b2 a9
+      a1 9d ad 9c   9e a3 b0----
+    section[3], 384 subcarriers, low = 0x631, high = 0x7b0 (384 bytes)
+      af a1 9f 98   af a3 a7 a5   99 99 a5 a8   ae 98 9c a5
+      a5 9f a3 9f   95 91 8c 8c   94 8d 8e 91   a1 9b ab a9
+      9e 9d a6 9d   a4 a5 99 9b   9a 97 a5 a9   99 a5 b0 ab
+      b2 a7 ac 9f   a4 a5 af a5   a7 be ac a4   9e a8 a7 a2
+      a2 a9 99 aa   a1 9a 98 a3   b0 98 94 a3   92 9c 99 a6
+      ac a3 a4 9b   92 99 9d 8a   91 8e a2 a4   9a 94 a3 a5
+      a5 a8 a0 a3   ab b3 a6 a8   99 a3 aa 9c   a5 a3 b4 a5
+      9c 9f ad a2   a8 af 9d ab   ab a9 b6 ae   b4 ab ae 97
+      a4 a4 a1 9f   b0 b2 a3 ad   ab a5 a2 9c   99 9b b5 ab
+      b0 ae a5 a2   a1 99 98 98   a2 a1 9b 93   a1 af 98 a1
+      a2 a6 92 a1   99 99 92 93   99 96 ae ab   af ad ae b6
+      a1 9e a3 99   a3 b2 a6 9d   95 93 98 a5   9f a8 a2 a6
+      af a4 a8 9f   ab a5 a0 b1   ad c1 ab aa   a6 bb ad a9
+      a1 98 a4 9f   b7 a4 a5 9c   a5 a5 b1 99   9f a3 ab a7
+      bd a7 a9 b2   af a8 a8 a6   b2 a5 a1 a8   9e a6 a9 aa
+      ac ab a5 99   a8 a7 b2 a5   aa 99 9a 99   9a aa a8 b0
+      bb b1 b2 a9   9d ab b1 a9   a4 a4 b2 a6   a8 9e a9 b1
+      a8 b1 b4 b0   b7 ac 9e ac   99 a0 a2 9e   a1 9d a2 b4
+      b1 a5 b4 b8   ae af aa a8   b3 a3 b7 b0   ad b7 b1 9d
+      a4 ad a2 a6   bf b1 a9 9c   af 9b a8 b1   a6 a7 ae ad
+      aa bb aa 9d   a1 b2 af ab   af ad 9c a7   a4 a8 9b a8
+      b1 a7 af bd   ac a8 ad b8   ab af aa ab   a9 a8 ae ae
+      b6 aa aa ac   aa a5 9e a4   a9 b0 a0 a9   9f ae 9f 9e
+      a5 a7 a5 95   9d a1 9a b4   a2 a2 a8 a9   9d a4 b2 9d
      ----
   Trailer Status = 0x00
     Version = 0 (Version 1)
-  Power Error (0.25 dB) = -3
-  RxMER Burst (0.25 dB) = 175
-
-
-2020-05-30 12:22
+  Power Error (0.25 dB) = 11

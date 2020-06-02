@@ -1,5 +1,4 @@
 import re
-import statistics
 #"      c7 b9 ad af   b2 ba ae bf   b1 bc a4 b1   ac b0 b1 ba  "
 regex = re.compile(r'^\s{6}((([a-f]|[0-9])+).+[^\n])')
 result=[]
@@ -13,18 +12,14 @@ with open('mer probe.txt') as data:
 #print(result)
 
 for l in result:
-    newline = l.strip().replace("  ","").replace("----","").split(" ")
+    newline = l.replace("  ","").replace("----","").split(" ")
     for x in newline:
         if x != "ff":
             q = int(x, 16)
             hexs.append(q)
             i=i+q
-devi = statistics.stdev(hexs)
 
 MER= i/len(hexs)/4
-STDDEV = devi/4
-
-print(f"The MeanRxMer value: {MER}")
-print(f"The StdDevRxMer: {STDDEV}")
+print(f"The MER value: {MER}")
 
 
