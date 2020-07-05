@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6f90fa7-70a2-4a73-b235-1323e2e31c39" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEMP.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PrintUcd.py" beforeDir="false" afterPath="$PROJECT_DIR$/PrintUcd.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mer probe.txt" beforeDir="false" afterPath="$PROJECT_DIR$/mer probe.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,9 +33,9 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
-  <component name="RunManager" selected="Python.PrintUcd">
+  <component name="RunManager" selected="Python.task_7_2">
     <configuration name="PrintUcd" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="T5auto" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -53,69 +49,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PrintUcd.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="task_4_5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="T5auto" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Downloads/pyneng-examples-exercises-master/pyneng-examples-exercises/exercises/04_data_structures" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/Downloads/pyneng-examples-exercises-master/pyneng-examples-exercises/exercises/04_data_structures/task_4_5.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="task_4_6" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="T5auto" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Downloads/pyneng-examples-exercises-master/pyneng-examples-exercises/exercises/04_data_structures" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/Downloads/pyneng-examples-exercises-master/pyneng-examples-exercises/exercises/04_data_structures/task_4_6.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="task_4_7" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="T5auto" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Downloads/pyneng-examples-exercises-master/pyneng-examples-exercises/exercises/04_data_structures" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/Downloads/pyneng-examples-exercises-master/pyneng-examples-exercises/exercises/04_data_structures/task_4_7.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -145,13 +78,76 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="task_6_3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="T5auto" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Downloads/pyneng-examples-exercises-master/pyneng-examples-exercises/exercises/06_control_structures" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Downloads/pyneng-examples-exercises-master/pyneng-examples-exercises/exercises/06_control_structures/task_6_3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="task_7_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="T5auto" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Downloads/pyneng-examples-exercises-master/pyneng-examples-exercises/exercises/07_files" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Downloads/pyneng-examples-exercises-master/pyneng-examples-exercises/exercises/07_files/task_7_1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="task_7_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="T5auto" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Downloads/pyneng-examples-exercises-master/pyneng-examples-exercises/exercises/07_files" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Downloads/pyneng-examples-exercises-master/pyneng-examples-exercises/exercises/07_files/task_7_2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.task_7_2" />
+        <item itemvalue="Python.task_7_1" />
+        <item itemvalue="Python.task_6_3" />
         <item itemvalue="Python.PrintUcd" />
         <item itemvalue="Python.task_4_8" />
-        <item itemvalue="Python.task_4_7" />
-        <item itemvalue="Python.task_4_6" />
-        <item itemvalue="Python.task_4_5" />
       </list>
     </recent_temporary>
   </component>
@@ -166,13 +162,29 @@
       <option name="presentableId" value="Default" />
       <updated>1590159087808</updated>
     </task>
+    <task id="LOCAL-00001" summary="1234567">
+      <created>1591121791739</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1591121791739</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1234567" />
+    <option name="LAST_COMMIT_MESSAGE" value="1234567" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="424" y="12" key="CommitChangelistDialog2" timestamp="1590925909247">
+    <state x="496" y="44" key="#task_6_3" timestamp="1591626211405">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="424" y="12" key="CommitChangelistDialog2/0.0.1536.834/-1920.0.1536.834@0.0.1536.834" timestamp="1590925909247" />
+    <state x="496" y="44" key="#task_6_3/0.0.1536.834/-1920.0.1536.834@0.0.1536.834" timestamp="1591626211404" />
+    <state x="424" y="12" key="CommitChangelistDialog2" timestamp="1591121790832">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="424" y="12" key="CommitChangelistDialog2/0.0.1536.834/-1920.0.1536.834@0.0.1536.834" timestamp="1591121790832" />
     <state x="549" y="159" key="FileChooserDialogImpl" timestamp="1590917122528">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -181,26 +193,30 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="591" y="316" key="Github.CreateGistDialog/0.0.1536.834/-1920.0.1536.834@0.0.1536.834" timestamp="1590917231040" />
-    <state width="1515" height="167" key="GridCell.Tab.0.bottom" timestamp="1591085594820">
+    <state width="1515" height="167" key="GridCell.Tab.0.bottom" timestamp="1591785172468">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1515" height="167" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.0.1536.834@0.0.1536.834" timestamp="1591085594820" />
-    <state width="1515" height="167" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1590996926427" />
-    <state width="1515" height="167" key="GridCell.Tab.0.center" timestamp="1591085594820">
+    <state width="1515" height="167" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.0.1536.834@-1920.0.1536.834" timestamp="1591277882352" />
+    <state width="1515" height="167" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.0.1536.834@0.0.1536.834" timestamp="1591785172468" />
+    <state width="1515" height="167" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1591606671685" />
+    <state width="1515" height="167" key="GridCell.Tab.0.center" timestamp="1591785172468">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1515" height="167" key="GridCell.Tab.0.center/0.0.1536.834/-1920.0.1536.834@0.0.1536.834" timestamp="1591085594820" />
-    <state width="1515" height="167" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1590996926426" />
-    <state width="1515" height="167" key="GridCell.Tab.0.left" timestamp="1591085594820">
+    <state width="1515" height="167" key="GridCell.Tab.0.center/0.0.1536.834/-1920.0.1536.834@-1920.0.1536.834" timestamp="1591277882352" />
+    <state width="1515" height="167" key="GridCell.Tab.0.center/0.0.1536.834/-1920.0.1536.834@0.0.1536.834" timestamp="1591785172468" />
+    <state width="1515" height="167" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1591606671684" />
+    <state width="1515" height="167" key="GridCell.Tab.0.left" timestamp="1591785172468">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1515" height="167" key="GridCell.Tab.0.left/0.0.1536.834/-1920.0.1536.834@0.0.1536.834" timestamp="1591085594820" />
-    <state width="1515" height="167" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1590996926426" />
-    <state width="1515" height="167" key="GridCell.Tab.0.right" timestamp="1591085594820">
+    <state width="1515" height="167" key="GridCell.Tab.0.left/0.0.1536.834/-1920.0.1536.834@-1920.0.1536.834" timestamp="1591277882351" />
+    <state width="1515" height="167" key="GridCell.Tab.0.left/0.0.1536.834/-1920.0.1536.834@0.0.1536.834" timestamp="1591785172468" />
+    <state width="1515" height="167" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1591606671684" />
+    <state width="1515" height="167" key="GridCell.Tab.0.right" timestamp="1591785172468">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1515" height="167" key="GridCell.Tab.0.right/0.0.1536.834/-1920.0.1536.834@0.0.1536.834" timestamp="1591085594820" />
-    <state width="1515" height="167" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1590996926427" />
+    <state width="1515" height="167" key="GridCell.Tab.0.right/0.0.1536.834/-1920.0.1536.834@-1920.0.1536.834" timestamp="1591277882352" />
+    <state width="1515" height="167" key="GridCell.Tab.0.right/0.0.1536.834/-1920.0.1536.834@0.0.1536.834" timestamp="1591785172468" />
+    <state width="1515" height="167" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1591606671684" />
     <state width="1515" height="265" key="GridCell.Tab.1.bottom" timestamp="1590929802715">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -217,17 +233,20 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1515" height="265" key="GridCell.Tab.1.right/0.0.1536.834/-1920.0.1536.834@0.0.1536.834" timestamp="1590929802715" />
-    <state x="277" y="60" key="SettingsEditor" timestamp="1590918956143">
+    <state x="277" y="60" key="SettingsEditor" timestamp="1593945285490">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="277" y="60" key="SettingsEditor/0.0.1536.834/-1920.0.1536.834@0.0.1536.834" timestamp="1590918956143" />
+    <state x="277" y="60" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1593945285490" />
     <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1590919001565">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834/-1920.0.1536.834@0.0.1536.834" timestamp="1590919001565" />
-    <state x="465" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1590745891389">
+    <state x="465" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1593944854388">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
+    <state x="-1455" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.834/-1920.0.1536.834@-1920.0.1536.834" timestamp="1592400142962" />
     <state x="465" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.834/-1920.0.1536.834@0.0.1536.834" timestamp="1590745891389" />
+    <state x="465" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1593944854388" />
   </component>
 </project>
