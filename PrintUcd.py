@@ -24,7 +24,7 @@ devi = statistics.stdev(hexs)
 MER= i/len(hexs)/4
 STDDEV = devi/4
 
-print(f"The MeanRxMer value: {MER}")
+print(f"The MeanRxMer value!: {MER}")
 print(f"The StdDevRxMer: {STDDEV}")
 
 
